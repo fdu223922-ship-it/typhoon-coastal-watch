@@ -1,10 +1,14 @@
 {
   "name": "typhoon-coastal-watch",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "type": "module",
   "private": true,
-  "description": "沿海台风通 HTML 演示原型，全部气象信息为虚构数据",
+  "description": "上海台风路径数据看板与 GitHub Actions 定时采集",
   "scripts": {
     "dev": "node scripts/serve.mjs",
-    "check": "node --check app.js && node --check scripts/serve.mjs"
+    "check": "node --check app.js && node --check lib/typhoon.js && node --check scripts/fetch-data.mjs && node --check scripts/build.mjs && node --check scripts/serve.mjs",
+    "fetch:data": "node scripts/fetch-data.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs"
   }
 }

@@ -1,0 +1,1324 @@
+{
+  "schemaVersion": 1,
+  "mode": "live",
+  "source": {
+    "name": "上海市水务局台风路径发布系统",
+    "url": "https://bmxx.swj.sh.gov.cn/typhoon/",
+    "api": "https://bmxx.swj.sh.gov.cn/netskip-datax-typhoon/weather/",
+    "timezone": "Asia/Shanghai"
+  },
+  "status": "ok",
+  "lastAttemptAt": "2026-09-21T10:12:18.452Z",
+  "lastSuccessAt": "2026-09-21T10:12:18.452Z",
+  "error": null,
+  "storms": [
+    {
+      "id": "202625",
+      "name": "杜鹃",
+      "english": "DUJUAN",
+      "active": true,
+      "history": [
+        {
+          "time": "2026-09-16T20:00:00+08:00",
+          "lat": 16.4,
+          "lon": 149.2,
+          "wind": 8,
+          "windSpeed": 18,
+          "pressure": 998,
+          "strength": "热带风暴",
+          "moveSpeed": 34,
+          "direction": "北",
+          "windRadii": {
+            "7": {
+              "ne": 480,
+              "se": 480,
+              "sw": 150,
+              "nw": 150
+            }
+          }
+        },
+        {
+          "time": "2026-09-16T23:00:00+08:00",
+          "lat": 16.9,
+          "lon": 149.4,
+          "wind": 8,
+          "windSpeed": 18,
+          "pressure": 998,
+          "strength": "热带风暴",
+          "moveSpeed": 35,
+          "direction": "北",
+          "windRadii": {
+            "7": {
+              "ne": 480,
+              "se": 480,
+              "sw": 150,
+              "nw": 150
+            }
+          }
+        },
+        {
+          "time": "2026-09-17T02:00:00+08:00",
+          "lat": 17.5,
+          "lon": 149.7,
+          "wind": 8,
+          "windSpeed": 18,
+          "pressure": 998,
+          "strength": "热带风暴",
+          "moveSpeed": 37,
+          "direction": "北",
+          "windRadii": {
+            "7": {
+              "ne": 480,
+              "se": 480,
+              "sw": 150,
+              "nw": 150
+            }
+          }
+        },
+        {
+          "time": "2026-09-17T05:00:00+08:00",
+          "lat": 18.1,
+          "lon": 149.7,
+          "wind": 8,
+          "windSpeed": 20,
+          "pressure": 995,
+          "strength": "热带风暴",
+          "moveSpeed": 40,
+          "direction": "北",
+          "windRadii": {
+            "7": {
+              "ne": 480,
+              "se": 480,
+              "sw": 150,
+              "nw": 150
+            }
+          }
+        },
+        {
+          "time": "2026-09-17T08:00:00+08:00",
+          "lat": 18.8,
+          "lon": 150.5,
+          "wind": 8,
+          "windSpeed": 20,
+          "pressure": 995,
+          "strength": "热带风暴",
+          "moveSpeed": 45,
+          "direction": "北北西",
+          "windRadii": {
+            "7": {
+              "ne": 480,
+              "se": 480,
+              "sw": 150,
+              "nw": 150
+            }
+          }
+        },
+        {
+          "time": "2026-09-17T11:00:00+08:00",
+          "lat": 19.9,
+          "lon": 150.6,
+          "wind": 9,
+          "windSpeed": 23,
+          "pressure": 990,
+          "strength": "热带风暴",
+          "moveSpeed": 47,
+          "direction": "北西",
+          "windRadii": {
+            "7": {
+              "ne": 480,
+              "se": 480,
+              "sw": 150,
+              "nw": 150
+            }
+          }
+        },
+        {
+          "time": "2026-09-17T14:00:00+08:00",
+          "lat": 21.2,
+          "lon": 150.1,
+          "wind": 9,
+          "windSpeed": 23,
+          "pressure": 990,
+          "strength": "热带风暴",
+          "moveSpeed": 43,
+          "direction": "北西",
+          "windRadii": {
+            "7": {
+              "ne": 480,
+              "se": 480,
+              "sw": 150,
+              "nw": 150
+            }
+          }
+        },
+        {
+          "time": "2026-09-17T17:00:00+08:00",
+          "lat": 22.2,
+          "lon": 149.4,
+          "wind": 10,
+          "windSpeed": 25,
+          "pressure": 985,
+          "strength": "强热带风暴",
+          "moveSpeed": 41,
+          "direction": "北西",
+          "windRadii": {
+            "7": {
+              "ne": 480,
+              "se": 400,
+              "sw": 150,
+              "nw": 300
+            }
+          }
+        },
+        {
+          "time": "2026-09-17T20:00:00+08:00",
+          "lat": 23.4,
+          "lon": 148.4,
+          "wind": 10,
+          "windSpeed": 25,
+          "pressure": 985,
+          "strength": "强热带风暴",
+          "moveSpeed": 38,
+          "direction": "西北西",
+          "windRadii": {
+            "7": {
+              "ne": 480,
+              "se": 400,
+              "sw": 150,
+              "nw": 300
+            }
+          }
+        },
+        {
+          "time": "2026-09-17T23:00:00+08:00",
+          "lat": 23.8,
+          "lon": 147.8,
+          "wind": 10,
+          "windSpeed": 25,
+          "pressure": 985,
+          "strength": "强热带风暴",
+          "moveSpeed": 37,
+          "direction": "西北西",
+          "windRadii": {
+            "7": {
+              "ne": 480,
+              "se": 400,
+              "sw": 150,
+              "nw": 300
+            }
+          }
+        },
+        {
+          "time": "2026-09-18T02:00:00+08:00",
+          "lat": 24.6,
+          "lon": 145.9,
+          "wind": 10,
+          "windSpeed": 25,
+          "pressure": 985,
+          "strength": "强热带风暴",
+          "moveSpeed": 25,
+          "direction": "西北西",
+          "windRadii": {
+            "7": {
+              "ne": 480,
+              "se": 400,
+              "sw": 150,
+              "nw": 300
+            }
+          }
+        },
+        {
+          "time": "2026-09-18T05:00:00+08:00",
+          "lat": 25.4,
+          "lon": 145.3,
+          "wind": 10,
+          "windSpeed": 28,
+          "pressure": 982,
+          "strength": "强热带风暴",
+          "moveSpeed": 22,
+          "direction": "西",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 400,
+              "sw": 150,
+              "nw": 450
+            },
+            "10": {
+              "ne": 150,
+              "se": 80,
+              "sw": 80,
+              "nw": 150
+            }
+          }
+        },
+        {
+          "time": "2026-09-18T08:00:00+08:00",
+          "lat": 25.3,
+          "lon": 145,
+          "wind": 10,
+          "windSpeed": 28,
+          "pressure": 982,
+          "strength": "强热带风暴",
+          "moveSpeed": 27,
+          "direction": "西",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 450,
+              "sw": 150,
+              "nw": 450
+            },
+            "10": {
+              "ne": 150,
+              "se": 120,
+              "sw": 80,
+              "nw": 150
+            }
+          }
+        },
+        {
+          "time": "2026-09-18T11:00:00+08:00",
+          "lat": 25.3,
+          "lon": 143.7,
+          "wind": 11,
+          "windSpeed": 30,
+          "pressure": 980,
+          "strength": "强热带风暴",
+          "moveSpeed": 22,
+          "direction": "西北西",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 450,
+              "sw": 150,
+              "nw": 450
+            },
+            "10": {
+              "ne": 150,
+              "se": 120,
+              "sw": 80,
+              "nw": 150
+            }
+          }
+        },
+        {
+          "time": "2026-09-18T14:00:00+08:00",
+          "lat": 25.7,
+          "lon": 142.9,
+          "wind": 11,
+          "windSpeed": 30,
+          "pressure": 980,
+          "strength": "强热带风暴",
+          "moveSpeed": 17,
+          "direction": "西",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 450,
+              "sw": 150,
+              "nw": 450
+            },
+            "10": {
+              "ne": 150,
+              "se": 120,
+              "sw": 80,
+              "nw": 150
+            }
+          }
+        },
+        {
+          "time": "2026-09-18T17:00:00+08:00",
+          "lat": 25.7,
+          "lon": 142.6,
+          "wind": 12,
+          "windSpeed": 33,
+          "pressure": 975,
+          "strength": "台风",
+          "moveSpeed": 19,
+          "direction": "西北西",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            }
+          }
+        },
+        {
+          "time": "2026-09-18T20:00:00+08:00",
+          "lat": 25.7,
+          "lon": 141.7,
+          "wind": 12,
+          "windSpeed": 33,
+          "pressure": 975,
+          "strength": "台风",
+          "moveSpeed": 16,
+          "direction": "西北西",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            }
+          }
+        },
+        {
+          "time": "2026-09-18T23:00:00+08:00",
+          "lat": 25.7,
+          "lon": 141.3,
+          "wind": 12,
+          "windSpeed": 35,
+          "pressure": 970,
+          "strength": "台风",
+          "moveSpeed": 18,
+          "direction": "西北西",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            },
+            "12": {
+              "ne": 40,
+              "se": 40,
+              "sw": 40,
+              "nw": 40
+            }
+          }
+        },
+        {
+          "time": "2026-09-19T02:00:00+08:00",
+          "lat": 26,
+          "lon": 140.8,
+          "wind": 12,
+          "windSpeed": 35,
+          "pressure": 970,
+          "strength": "台风",
+          "moveSpeed": 19,
+          "direction": "北西",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            },
+            "12": {
+              "ne": 40,
+              "se": 40,
+              "sw": 40,
+              "nw": 40
+            }
+          }
+        },
+        {
+          "time": "2026-09-19T05:00:00+08:00",
+          "lat": 26.4,
+          "lon": 140.3,
+          "wind": 12,
+          "windSpeed": 35,
+          "pressure": 970,
+          "strength": "台风",
+          "moveSpeed": 17,
+          "direction": "西北西",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            },
+            "12": {
+              "ne": 40,
+              "se": 40,
+              "sw": 40,
+              "nw": 40
+            }
+          }
+        },
+        {
+          "time": "2026-09-19T08:00:00+08:00",
+          "lat": 26.4,
+          "lon": 139.8,
+          "wind": 12,
+          "windSpeed": 35,
+          "pressure": 970,
+          "strength": "台风",
+          "moveSpeed": 17,
+          "direction": "北西",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            },
+            "12": {
+              "ne": 40,
+              "se": 40,
+              "sw": 40,
+              "nw": 40
+            }
+          }
+        },
+        {
+          "time": "2026-09-19T11:00:00+08:00",
+          "lat": 26.6,
+          "lon": 139.5,
+          "wind": 12,
+          "windSpeed": 35,
+          "pressure": 970,
+          "strength": "台风",
+          "moveSpeed": 19,
+          "direction": "北西",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            },
+            "12": {
+              "ne": 40,
+              "se": 40,
+              "sw": 40,
+              "nw": 40
+            }
+          }
+        },
+        {
+          "time": "2026-09-19T14:00:00+08:00",
+          "lat": 26.9,
+          "lon": 139.1,
+          "wind": 12,
+          "windSpeed": 35,
+          "pressure": 970,
+          "strength": "台风",
+          "moveSpeed": 17,
+          "direction": "北西",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            },
+            "12": {
+              "ne": 40,
+              "se": 40,
+              "sw": 40,
+              "nw": 40
+            }
+          }
+        },
+        {
+          "time": "2026-09-19T17:00:00+08:00",
+          "lat": 27.4,
+          "lon": 138.8,
+          "wind": 12,
+          "windSpeed": 33,
+          "pressure": 975,
+          "strength": "台风",
+          "moveSpeed": 13,
+          "direction": "北西",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            }
+          }
+        },
+        {
+          "time": "2026-09-19T20:00:00+08:00",
+          "lat": 27.8,
+          "lon": 138.3,
+          "wind": 12,
+          "windSpeed": 33,
+          "pressure": 975,
+          "strength": "台风",
+          "moveSpeed": 10,
+          "direction": "北西",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            }
+          }
+        },
+        {
+          "time": "2026-09-19T23:00:00+08:00",
+          "lat": 28.3,
+          "lon": 137.9,
+          "wind": 12,
+          "windSpeed": 33,
+          "pressure": 975,
+          "strength": "台风",
+          "moveSpeed": 8,
+          "direction": "北北西",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            }
+          }
+        },
+        {
+          "time": "2026-09-20T02:00:00+08:00",
+          "lat": 28.6,
+          "lon": 137.7,
+          "wind": 12,
+          "windSpeed": 33,
+          "pressure": 975,
+          "strength": "台风",
+          "moveSpeed": 8,
+          "direction": "北",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            }
+          }
+        },
+        {
+          "time": "2026-09-20T05:00:00+08:00",
+          "lat": 29,
+          "lon": 137.6,
+          "wind": 12,
+          "windSpeed": 33,
+          "pressure": 975,
+          "strength": "台风",
+          "moveSpeed": 8,
+          "direction": "北",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            }
+          }
+        },
+        {
+          "time": "2026-09-20T08:00:00+08:00",
+          "lat": 29,
+          "lon": 137.6,
+          "wind": 11,
+          "windSpeed": 30,
+          "pressure": 980,
+          "strength": "强热带风暴",
+          "moveSpeed": 13,
+          "direction": "北",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            }
+          }
+        },
+        {
+          "time": "2026-09-20T11:00:00+08:00",
+          "lat": 29.2,
+          "lon": 137.6,
+          "wind": 11,
+          "windSpeed": 30,
+          "pressure": 980,
+          "strength": "强热带风暴",
+          "moveSpeed": 15,
+          "direction": "北",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            }
+          }
+        },
+        {
+          "time": "2026-09-20T14:00:00+08:00",
+          "lat": 29.6,
+          "lon": 137.5,
+          "wind": 11,
+          "windSpeed": 30,
+          "pressure": 980,
+          "strength": "强热带风暴",
+          "moveSpeed": 17,
+          "direction": "北",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            }
+          }
+        },
+        {
+          "time": "2026-09-20T17:00:00+08:00",
+          "lat": 29.9,
+          "lon": 137.4,
+          "wind": 11,
+          "windSpeed": 30,
+          "pressure": 980,
+          "strength": "强热带风暴",
+          "moveSpeed": 22,
+          "direction": "北北东",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            }
+          }
+        },
+        {
+          "time": "2026-09-20T20:00:00+08:00",
+          "lat": 30.2,
+          "lon": 137.5,
+          "wind": 11,
+          "windSpeed": 30,
+          "pressure": 980,
+          "strength": "强热带风暴",
+          "moveSpeed": 24,
+          "direction": "北北东",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            }
+          }
+        },
+        {
+          "time": "2026-09-20T23:00:00+08:00",
+          "lat": 30.8,
+          "lon": 137.8,
+          "wind": 11,
+          "windSpeed": 30,
+          "pressure": 980,
+          "strength": "强热带风暴",
+          "moveSpeed": 22,
+          "direction": "北北东",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            }
+          }
+        },
+        {
+          "time": "2026-09-21T02:00:00+08:00",
+          "lat": 31.3,
+          "lon": 137.9,
+          "wind": 11,
+          "windSpeed": 30,
+          "pressure": 980,
+          "strength": "强热带风暴",
+          "moveSpeed": 24,
+          "direction": "北北东",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            }
+          }
+        },
+        {
+          "time": "2026-09-21T05:00:00+08:00",
+          "lat": 32,
+          "lon": 138.2,
+          "wind": 11,
+          "windSpeed": 30,
+          "pressure": 980,
+          "strength": "强热带风暴",
+          "moveSpeed": 25,
+          "direction": "北东",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            }
+          }
+        },
+        {
+          "time": "2026-09-21T08:00:00+08:00",
+          "lat": 32.4,
+          "lon": 138.5,
+          "wind": 11,
+          "windSpeed": 30,
+          "pressure": 980,
+          "strength": "强热带风暴",
+          "moveSpeed": 30,
+          "direction": "北东",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            }
+          }
+        },
+        {
+          "time": "2026-09-21T11:00:00+08:00",
+          "lat": 33,
+          "lon": 138.9,
+          "wind": 11,
+          "windSpeed": 30,
+          "pressure": 980,
+          "strength": "强热带风暴",
+          "moveSpeed": 37,
+          "direction": "北东",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            }
+          }
+        },
+        {
+          "time": "2026-09-21T14:00:00+08:00",
+          "lat": 33.7,
+          "lon": 139.8,
+          "wind": 11,
+          "windSpeed": 30,
+          "pressure": 980,
+          "strength": "强热带风暴",
+          "moveSpeed": 39,
+          "direction": "北东",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            }
+          }
+        },
+        {
+          "time": "2026-09-21T17:00:00+08:00",
+          "lat": 34.5,
+          "lon": 140.5,
+          "wind": 12,
+          "windSpeed": 33,
+          "pressure": 970,
+          "strength": "台风",
+          "moveSpeed": 57,
+          "direction": "东北东",
+          "windRadii": {
+            "7": {
+              "ne": 500,
+              "se": 300,
+              "sw": 300,
+              "nw": 400
+            },
+            "10": {
+              "ne": 100,
+              "se": 100,
+              "sw": 100,
+              "nw": 100
+            }
+          }
+        }
+      ],
+      "current": {
+        "time": "2026-09-21T17:00:00+08:00",
+        "lat": 34.5,
+        "lon": 140.5,
+        "wind": 12,
+        "windSpeed": 33,
+        "pressure": 970,
+        "strength": "台风",
+        "moveSpeed": 57,
+        "direction": "东北东",
+        "windRadii": {
+          "7": {
+            "ne": 500,
+            "se": 300,
+            "sw": 300,
+            "nw": 400
+          },
+          "10": {
+            "ne": 100,
+            "se": 100,
+            "sw": 100,
+            "nw": 100
+          }
+        }
+      },
+      "forecasts": [
+        {
+          "agency": "日本",
+          "basedOn": "2026-09-21T17:00:00+08:00",
+          "issuedAt": null,
+          "points": [
+            {
+              "time": "2026-09-21T20:00:00+08:00",
+              "lat": 34.9,
+              "lon": 141.4,
+              "wind": 13,
+              "windSpeed": 40,
+              "pressure": 960,
+              "strength": "台风",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            },
+            {
+              "time": "2026-09-21T23:00:00+08:00",
+              "lat": 35.6,
+              "lon": 142.6,
+              "wind": 13,
+              "windSpeed": 40,
+              "pressure": 960,
+              "strength": "台风",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            },
+            {
+              "time": "2026-09-22T02:00:00+08:00",
+              "lat": 36.3,
+              "lon": 143.9,
+              "wind": 13,
+              "windSpeed": 40,
+              "pressure": 960,
+              "strength": "台风",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            },
+            {
+              "time": "2026-09-22T05:00:00+08:00",
+              "lat": 37,
+              "lon": 145.3,
+              "wind": 13,
+              "windSpeed": 40,
+              "pressure": 960,
+              "strength": "台风",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            },
+            {
+              "time": "2026-09-22T08:00:00+08:00",
+              "lat": 37.7,
+              "lon": 146.8,
+              "wind": 13,
+              "windSpeed": 40,
+              "pressure": 960,
+              "strength": "台风",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            },
+            {
+              "time": "2026-09-22T11:00:00+08:00",
+              "lat": 38.2,
+              "lon": 148.4,
+              "wind": 13,
+              "windSpeed": 40,
+              "pressure": 960,
+              "strength": "台风",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            },
+            {
+              "time": "2026-09-22T14:00:00+08:00",
+              "lat": 38.7,
+              "lon": 150.1,
+              "wind": 12,
+              "windSpeed": 35,
+              "pressure": 965,
+              "strength": "台风",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            },
+            {
+              "time": "2026-09-22T17:00:00+08:00",
+              "lat": 39.1,
+              "lon": 151.8,
+              "wind": 12,
+              "windSpeed": 35,
+              "pressure": 965,
+              "strength": "台风",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            },
+            {
+              "time": "2026-09-23T14:00:00+08:00",
+              "lat": 41.6,
+              "lon": 164.6,
+              "wind": 8,
+              "windSpeed": 20,
+              "pressure": 994,
+              "strength": "热带风暴",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            }
+          ]
+        },
+        {
+          "agency": "中国",
+          "basedOn": "2026-09-21T17:00:00+08:00",
+          "issuedAt": null,
+          "points": [
+            {
+              "time": "2026-09-22T05:00:00+08:00",
+              "lat": 37.7,
+              "lon": 146.9,
+              "wind": 11,
+              "windSpeed": 30,
+              "pressure": 980,
+              "strength": "强热带风暴",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            },
+            {
+              "time": "2026-09-22T17:00:00+08:00",
+              "lat": 40.3,
+              "lon": 154,
+              "wind": 10,
+              "windSpeed": 25,
+              "pressure": 985,
+              "strength": "强热带风暴",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            }
+          ]
+        },
+        {
+          "agency": "中国香港",
+          "basedOn": "2026-09-21T17:00:00+08:00",
+          "issuedAt": null,
+          "points": [
+            {
+              "time": "2026-09-22T14:00:00+08:00",
+              "lat": 38.8,
+              "lon": 149.9,
+              "wind": 12,
+              "windSpeed": 36,
+              "pressure": null,
+              "strength": "台风",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            },
+            {
+              "time": "2026-09-23T14:00:00+08:00",
+              "lat": 41.8,
+              "lon": 164.5,
+              "wind": null,
+              "windSpeed": 0,
+              "pressure": null,
+              "strength": null,
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            }
+          ]
+        },
+        {
+          "agency": "中国台湾",
+          "basedOn": "2026-09-21T17:00:00+08:00",
+          "issuedAt": null,
+          "points": [
+            {
+              "time": "2026-09-21T20:00:00+08:00",
+              "lat": 34.9,
+              "lon": 141.2,
+              "wind": 12,
+              "windSpeed": 35,
+              "pressure": 965,
+              "strength": "台风",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            },
+            {
+              "time": "2026-09-22T02:00:00+08:00",
+              "lat": 36.3,
+              "lon": 143.8,
+              "wind": 12,
+              "windSpeed": 35,
+              "pressure": 965,
+              "strength": "台风",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            },
+            {
+              "time": "2026-09-22T08:00:00+08:00",
+              "lat": 37.5,
+              "lon": 146.8,
+              "wind": 12,
+              "windSpeed": 33,
+              "pressure": 970,
+              "strength": "台风",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            },
+            {
+              "time": "2026-09-22T14:00:00+08:00",
+              "lat": 38.7,
+              "lon": 150.1,
+              "wind": 11,
+              "windSpeed": 30,
+              "pressure": 975,
+              "strength": "强热带风暴",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            },
+            {
+              "time": "2026-09-23T02:00:00+08:00",
+              "lat": 40.3,
+              "lon": 156.7,
+              "wind": 8,
+              "windSpeed": 20,
+              "pressure": 995,
+              "strength": "热带风暴",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            },
+            {
+              "time": "2026-09-23T14:00:00+08:00",
+              "lat": 42.1,
+              "lon": 165.1,
+              "wind": null,
+              "windSpeed": 0,
+              "pressure": 1002,
+              "strength": null,
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            }
+          ]
+        },
+        {
+          "agency": "美国",
+          "basedOn": "2026-09-21T17:00:00+08:00",
+          "issuedAt": null,
+          "points": [
+            {
+              "time": "2026-09-22T02:00:00+08:00",
+              "lat": 36.2,
+              "lon": 143.9,
+              "wind": 13,
+              "windSpeed": 39,
+              "pressure": null,
+              "strength": "台风",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            },
+            {
+              "time": "2026-09-22T14:00:00+08:00",
+              "lat": 38.4,
+              "lon": 149.6,
+              "wind": 12,
+              "windSpeed": 36,
+              "pressure": null,
+              "strength": "台风",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            },
+            {
+              "time": "2026-09-23T02:00:00+08:00",
+              "lat": 39.9,
+              "lon": 156.1,
+              "wind": 10,
+              "windSpeed": 28,
+              "pressure": null,
+              "strength": "强热带风暴",
+              "moveSpeed": null,
+              "direction": null,
+              "windRadii": {}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings": {
+    "status": "not_connected",
+    "items": []
+  }
+}

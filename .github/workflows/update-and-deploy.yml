@@ -1,0 +1,75 @@
+name: 更新台风数据并发布 Pages
+
+on:
+  schedule:
+    # UTC 每小时 07、22、37、52 分运行，避开整点高峰；GitHub 可能延迟调度。
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'styles.css'
+      - 'app.js'
+      - 'lib/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'data/**'
+      - 'package.json'
+      - '.github/workflows/update-and-deploy.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: typhoon-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      data_status: ${{ steps.data.outputs.status }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: 语法与数据处理测试
+        run: |
+          npm run check
+          npm test
+      - name: 采集上海台风系统数据
+        id: data
+        continue-on-error: true
+        env:
+          PUBLISHED_DATA_URL: https://fdu223922-ship-it.github.io/typhoon-coastal-watch/data/latest.json
+        run: npm run fetch:data
+      - name: 生成静态站点（采集失败也发布明确的异常状态）
+        run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+          retention-days: 1
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 发布到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: 标记采集异常，便于仓库维护者发现故障
+        if: needs.build.outputs.data_status != 'ok'
+        run: |
+          echo '已发布故障提示与保留数据；本次采集没有成功，请检查 build 日志。'
+          exit 1

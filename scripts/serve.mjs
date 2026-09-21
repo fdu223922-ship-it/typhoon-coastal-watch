@@ -7,7 +7,9 @@ const files = new Map([
   ['/', ['index.html', 'text/html; charset=utf-8']],
   ['/index.html', ['index.html', 'text/html; charset=utf-8']],
   ['/styles.css', ['styles.css', 'text/css; charset=utf-8']],
-  ['/app.js', ['app.js', 'text/javascript; charset=utf-8']]
+  ['/app.js', ['app.js', 'text/javascript; charset=utf-8']],
+  ['/lib/typhoon.js', ['lib/typhoon.js', 'text/javascript; charset=utf-8']],
+  ['/data/latest.json', ['data/latest.json', 'application/json; charset=utf-8']]
 ])
 const port = Number(process.env.PORT || 8016)
 const server = createServer(async (request, response) => {
@@ -23,8 +25,9 @@ const server = createServer(async (request, response) => {
     response.writeHead(200, { 'Content-Type': file[1], 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff' })
     response.end(request.method === 'HEAD' ? undefined : body)
   } catch {
-    response.writeHead(500).end('Unable to read demo file')
+    response.writeHead(500).end('Unable to read site file')
   }
 })
-server.on('error', error => { console.error(`演示服务启动失败：${error.message}`); process.exitCode = 1 })
-server.listen(port, '127.0.0.1', () => console.log(`沿海台风通演示：http://127.0.0.1:${server.address().port}`))
+server.on('error', error => { console.error(`预览服务启动失败：${error.message}`); process.exitCode = 1 })
+server.listen(port, '127.0.0.1', () => console.log(`沿海台风通预览：http://127.0.0.1:${server.address().port}`))
+
