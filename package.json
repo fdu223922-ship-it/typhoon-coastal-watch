@@ -1,0 +1,10 @@
+{
+  "name": "typhoon-coastal-watch",
+  "version": "0.1.0",
+  "private": true,
+  "description": "沿海台风通 HTML 演示原型，全部气象信息为虚构数据",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node --check app.js && node --check scripts/serve.mjs"
+  }
+}
